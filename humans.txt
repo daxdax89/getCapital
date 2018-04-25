@@ -1,0 +1,7 @@
+/* TEAM */
+
+CEO & Co-founder: Matías Koretzky
+twitter: @matiaskoretzky
+
+Developer: Damir Demirović
+twitter: @object_brain
