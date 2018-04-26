@@ -352,6 +352,33 @@ canvas {
 </div>
 <!-- footer -->
 
+
+<?php
+//if "email" variable is filled out, send email
+if (isset($_REQUEST['email']))  {
+
+//Email information
+  $admin_email = "nate@getcapital.nyc";
+  $email = $_REQUEST['email'];
+  $fname = $_REQUEST['firstname'];
+  $lname = $_REQUEST['lastname'];
+  $phone = $_REQUEST['phone'];
+  $credit = $_REQUEST['credit'];
+  $time = $_REQUEST['time'];
+  $amount = $_REQUEST['amount'];
+
+  $message = $_REQUEST['message'];
+
+//send email
+  mail($admin_email, "$fname", "$lastname", "$phone", "$credit", "$time", "$amount", $message, "From:" . $email);
+
+//Email response
+  echo "Thank you for contacting me!";
+
+}
+
+?>
+
 <!-- <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
  --><script src="js/index.js"></script>
 </body>
