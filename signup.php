@@ -104,7 +104,7 @@
 						<label class="control-label" for="name-input-field">Last Name </label>
 					</div>
 					<div class="col-md-8 input-column">
-						<input class="form-control" type="text" type="lastname" id="lastname">
+						<input class="form-control" type="text" name="lastname" id="lastname">
 					</div>
 				</div>
 				<div class="form-group">
