@@ -209,7 +209,7 @@ canvas {
 		<div class="col-md-4 infoFooterContainer">
 
 			<!-- title -->
-			<h4 class="footerTitle">
+			<h4 class="footerTitle" style="color: black;">
 
 				<!-- icon -->
 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/phone-af650b6aa3a2faab60ccc3e22dafc4c2f01c66acc698bc2a0cb0e8c351384923.png" />
@@ -239,7 +239,7 @@ canvas {
 		<div class="col-md-4 infoFooterContainer">
 
 			<!-- title -->
-			<h4 class="footerTitle">
+			<h4 class="footerTitle" style="color: black;">
 
 				<!-- icon -->
 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/mail-48860b2f55422a86db492e77ed221bb2272bd3dd6aa723b24244683a7b8dac63.png" />
@@ -263,7 +263,7 @@ canvas {
 		<div class="col-md-4 infoFooterContainer">
 
 			<!-- title -->
-			<h4 class="footerTitle">
+			<h4 class="footerTitle" style="color: black;">
 
 				<!-- icon -->
 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/house-d2952b662643ba391b31274744dcc2d85737ab10b62cd389f148c55354f17cd6.png" />
@@ -293,7 +293,7 @@ canvas {
 
 		<!-- legal info -->
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 legailInfoContainer">
-			<div class="row" style="margin: 5%;">
+			<div class="row" style="margin: 5%;margin-top: 0;">
 				<img class="col-md-offset-4 col-md-4 img-responsive" src="assets/img/trustLogo.png">
 			</div>			<!-- separador -->
 			<hr class="legalInfoSeparator" />
