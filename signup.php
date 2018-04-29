@@ -35,29 +35,18 @@
 </head>
 
 <body style="background-color: #fafafa;">
-
-	<!-- atf -->
 	<section class="atf" id="top" style="height: 40%;background-color: #fff;">
-
-		<!-- nav -->
 		<nav class="topNav fadeIn">
 			<div class="container">
-
-				<!-- encabezado -->
 				<div class="navbar-header">
 					<a href="index.html"><img src="assets/logo/nlogo.png" alt="top-logo"/></a>
-					<!-- btn responsive -->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Menu</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!-- btn responsive -->
 				</div>
-				<!-- encabezado -->
-
-				<!-- listado de items -->
 				<div id="navbar" class="navbar-collapse collapse mainTopNavContainer" style="float: none;text-align: center;">
 					<ul class="mainTopNavItems">
 						<li class="mainTopNavItem"><a class="mainTopNavLink scrollMe" href="index.html">Home</a></li>
@@ -71,21 +60,14 @@
 						<li class="mainTopNavItem"><a class="mainTopNavLink scrollMe" href="faq.html" target="_self">FAQs</a></li>
 					</ul>
 				</div>
-				<!-- listado de items -->
-
 			</div>
 		</nav>
-		<!-- nav -->
-
-		<!-- atf -->
-
-<!--     <section style="text-align: center;background-image: url(assets/img/blue-confetti.png);background-size: 100%;">
--->    
-<section>
+		<section>
 <!--   <div id="particles-js"></div>
 -->
 <!--     <iframe height='1541' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none;margin-top: 5%;'  src='https://www.formget.com/app/forms/view/lWZA-295678/i?w=328'>Your Contact </iframe>
 -->
+
 <div class="row register-form" style="margin: 0;background-color:#1db954">
 	<div class="col-md-offset-1 col-md-10">
 		<form class="form-horizontal custom-form" method="post" action="email.php" style="margin-bottom: 5%;margin-top: 5%;color: #fafafa;" enctype="multipart/form-data">
@@ -213,127 +195,127 @@ canvas {
 
 				<!-- icon -->
 <!-- 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/phone-af650b6aa3a2faab60ccc3e22dafc4c2f01c66acc698bc2a0cb0e8c351384923.png" />
- -->				<!-- icon -->
+-->				<!-- icon -->
 
-				<!-- txt -->
-				Call us
-				<!-- txt -->
+<!-- txt -->
+Call us
+<!-- txt -->
 
-			</h4>
-			<!-- title -->
+</h4>
+<!-- title -->
 
-			<!-- phone number -->
-			<span class="footerLink">
-				<a href="tel:5164255645" class="telephoneLink">516-425-5645</a>
-			</span>
-			<!-- phone number -->
+<!-- phone number -->
+<span class="footerLink">
+	<a href="tel:5164255645" class="telephoneLink">516-425-5645</a>
+</span>
+<!-- phone number -->
 
-			<!-- aclaracion -->
-			<p class="footerTxt">Mon-Fri, 8am - 6pm</p>
-			<!-- aclaracion -->
+<!-- aclaracion -->
+<p class="footerTxt">Mon-Fri, 8am - 6pm</p>
+<!-- aclaracion -->
 
-		</div>
-		<!-- call us -->
+</div>
+<!-- call us -->
 
-		<!-- write us -->
-		<div class="col-md-4 infoFooterContainer">
+<!-- write us -->
+<div class="col-md-4 infoFooterContainer">
 
-			<!-- title -->
-			<h4 class="footerTitle" style="color: black;">
+	<!-- title -->
+	<h4 class="footerTitle" style="color: black;">
 
-				<!-- icon -->
+		<!-- icon -->
 <!-- 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/mail-48860b2f55422a86db492e77ed221bb2272bd3dd6aa723b24244683a7b8dac63.png" />
- -->				<!-- icon -->
+-->				<!-- icon -->
 
-				<!-- txt -->
-				Text us
-				<!-- txt -->
+<!-- txt -->
+Text us
+<!-- txt -->
 
-			</h4>
-			<!-- title -->
+</h4>
+<!-- title -->
 
-			<!-- email -->
-			<a class="footerLink" href="mailto:info@getcapital.nyc">Send an e-mail</a>
-			<!-- email -->
+<!-- email -->
+<a class="footerLink" href="mailto:info@getcapital.nyc">Send an e-mail</a>
+<!-- email -->
 
-		</div>
-		<!-- write us -->
+</div>
+<!-- write us -->
 
-		<!-- come by -->
-		<div class="col-md-4 infoFooterContainer">
+<!-- come by -->
+<div class="col-md-4 infoFooterContainer">
 
-			<!-- title -->
-			<h4 class="footerTitle" style="color: black;">
+	<!-- title -->
+	<h4 class="footerTitle" style="color: black;">
 
-				<!-- icon -->
+		<!-- icon -->
 <!-- 				<img alt="Get Capital - Small Business Loans just for you" title="Get Capital - Small Business Loans just for you" class="footerIcon" src="assets/landing_page/icon/footer/house-d2952b662643ba391b31274744dcc2d85737ab10b62cd389f148c55354f17cd6.png" />
- -->				<!-- icon -->
+-->				<!-- icon -->
 
-				<!-- txt -->
-				Visit Us
-				<!-- txt -->
+<!-- txt -->
+Visit Us
+<!-- txt -->
 
-			</h4>
-			<!-- title -->
+</h4>
+<!-- title -->
 
-			<!-- aclaracion -->
-			<p class="footerTxt">
-				214-51 Jamaica Avenue Queens 
-				<br />
-				NY 11428
-			</p>
-			<!-- aclaracion -->
+<!-- aclaracion -->
+<p class="footerTxt">
+	214-51 Jamaica Avenue Queens 
+	<br />
+	NY 11428
+</p>
+<!-- aclaracion -->
 
-		</div>
-		<!-- come by -->
+</div>
+<!-- come by -->
 
-		<!-- logos -->
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 infoFooterContainer">&nbsp;</div>
-		<!-- logos -->
+<!-- logos -->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 infoFooterContainer">&nbsp;</div>
+<!-- logos -->
 
-		<!-- legal info -->
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 legailInfoContainer">
-			<div class="row" style="margin: 5%;margin-top: 0;">
-				<img class="col-md-offset-4 col-md-4 img-responsive" src="assets/img/trustLogo.png">
-			</div>			<!-- separador -->
-			<hr class="legalInfoSeparator" />
-			<!-- separador -->
+<!-- legal info -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 legailInfoContainer">
+	<div class="row" style="margin: 5%;margin-top: 0;">
+		<img class="col-md-offset-4 col-md-4 img-responsive" src="assets/img/trustLogo.png">
+	</div>			<!-- separador -->
+	<hr class="legalInfoSeparator" />
+	<!-- separador -->
 
-			<!-- txt -->
-			<p class="legalInfoTxt">
-				Disclaimer: Get Capital is not a direct lender and does not secure any type of loan. Get Capital connect small business owners with multiple lending products provided by our lending partners. Information in this site is owned and managed by Get Capital and does not necessarily represent the views of its funding partners.
-			</p>
-			<!-- txt -->
+	<!-- txt -->
+	<p class="legalInfoTxt">
+		Disclaimer: Get Capital is not a direct lender and does not secure any type of loan. Get Capital connect small business owners with multiple lending products provided by our lending partners. Information in this site is owned and managed by Get Capital and does not necessarily represent the views of its funding partners.
+	</p>
+	<!-- txt -->
 
-			<!-- listado info legal -->
-			<ul class="legalInfoLinksList" style="text-align: center;">
+	<!-- listado info legal -->
+	<ul class="legalInfoLinksList" style="text-align: center;">
 
-				<!-- TOS -->
-				<li class="legalInfoLinkItem">
-					<a class="legalInfoLink" href="tos.html" target="_self">Terms of Service</a>
-				</li>
-				<!-- TOS -->
+		<!-- TOS -->
+		<li class="legalInfoLinkItem">
+			<a class="legalInfoLink" href="tos.html" target="_self">Terms of Service</a>
+		</li>
+		<!-- TOS -->
 
-				<!-- privacy policy -->
-				<li class="legalInfoLinkItem">
-					<a class="legalInfoLink" href="privacy_policy.html" target="_self">Privacy Policy</a>
-				</li>
-				<!-- privacy policy -->
+		<!-- privacy policy -->
+		<li class="legalInfoLinkItem">
+			<a class="legalInfoLink" href="privacy_policy.html" target="_self">Privacy Policy</a>
+		</li>
+		<!-- privacy policy -->
 
-				<!-- FAQ -->
-				<li class="legalInfoLinkItem">
-					<a class="legalInfoLink" href="faq.html">FAQs</a>
-				</li>
-				<!-- FAQ -->
+		<!-- FAQ -->
+		<li class="legalInfoLinkItem">
+			<a class="legalInfoLink" href="faq.html">FAQs</a>
+		</li>
+		<!-- FAQ -->
 
-			</ul>
-			<!-- listado info legal -->
+	</ul>
+	<!-- listado info legal -->
 
-		</div>
-		<!-- legal info -->
+</div>
+<!-- legal info -->
 
-	</div>
-	<!-- container -->
+</div>
+<!-- container -->
 
 </footer>
 <div class="copyrightContainer">
@@ -359,7 +341,7 @@ canvas {
 if (isset($_REQUEST['email']))  {
 
 //Email information
-	$admin_email = "me@daxdax89.com";
+	$admin_email = "nate@getcapital.nyc";
 	$email = $_REQUEST['email'];
 	$fname = $_REQUEST['firstname'];
 	$lname = $_REQUEST['lastname'];
