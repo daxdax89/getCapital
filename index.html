@@ -112,6 +112,47 @@
 		}
 	}
 	#bg_illustraion {margin-bottom:-24px;}
+
+	/*** Responsive Styles Large Desktop And Above ***/
+	@media all and (min-width: 1405px) {
+		#movingText{
+			font-size: 3em !important;
+		}
+
+		#textDivLol{
+			margin-top: 15% !important;
+		}
+
+		#bannerButton{
+			font-size: 1.5em;
+		}
+	}
+
+	/*** Responsive Styles Standard Desktop Only ***/
+	@media all and (min-width: 1100px) and (max-width: 1405px) {
+
+	}
+
+	/*** Responsive Styles Tablet And Below ***/
+	@media all and (max-width: 980px) {
+
+	}
+
+	/*** Responsive Styles Tablet Only ***/
+	@media all and (min-width: 768px) and (max-width: 980px) {
+
+	}
+
+	/*** Responsive Styles Smartphone Only ***/
+	@media all and (max-width: 767px) {
+
+	}
+
+	/*** Responsive Styles Smartphone Portrait ***/
+	@media all and (max-width: 479px) {
+
+	}
+
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -170,15 +211,15 @@
 			<div class="container">
 
 				<!-- contenedor form ATF -->
-				<div class="home_banner_text" style="text-align: center;margin-top: 20%;">
-					<p id="movingText" style="color: white;text-align:center;font-size: 30px;">With Get Capital you can<br>
-						<span id="myP" style="font-size: 30px;" class="txt-rotate" data-period="2000"	data-rotate='[ "shop several offers at once.", "get approved in minutes.", "buy more inventory."]'>
+				<div id="textDivLol" style="text-align: center;margin-top: 20%;">
+					<p id="movingText" style="color: white;text-align:center;font-size: 1.5em;font-weight: bold;">With Get Capital you can<br>
+						<span id="myP" class="txt-rotate" data-period="2000"	data-rotate='[ "shop several offers at once.", "get approved in minutes.", "buy more inventory."]'>
 						</span>
 					</p>	
-					<a href="signup.php" style="margin-top: 5%;" class="btn btn-success btn-lg">Let's Get Started</a><br>
-			<!-- 		<div style="color: white;text-shadow: 2px 2px 2px black;font-size: 2.5em;">
+					<a id="bannerButton" href="signup.php" style="margin-top: 10%;" class="btn btn-success btn-lg">Let's Get Started</a><br>
+					<div style="color: white;text-shadow: 2px 2px 2px black;font-size: 1em; margin-top: 5%;">
 						<span id="tvrd" style="line-height: 100%;">It's free and won't affect your credit score</span>
-					</div> -->
+					</div>
 
 
 				</div>
@@ -196,7 +237,7 @@
 
 					<!-- feature 2 --> 
 					<div style="margin-top: 10%;">
-						<div class="featureItem home_business col-md-offset-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background:#1db954;">
+						<div class="featureItem home_business col-md-offset-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="background:#1db954;border-right: 1px solid gray;">
 
 							<!-- title -->
 							<h2 style="color:#fff;">1500+</h4>
@@ -537,8 +578,6 @@
 				</div>
 			</div>
 			<script type="text/javascript">
-				document.getElementById("myP").style.fontSize = "2em";
-
 
 				var TxtRotate = function(el, toRotate, period) {
 					this.toRotate = toRotate;
@@ -563,7 +602,7 @@
 					this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 					var that = this;
-					var delta = 300 - Math.random() * 100;
+					var delta = 150 - Math.random() * 100;
 
 					if (this.isDeleting) { delta /= 2; }
 
