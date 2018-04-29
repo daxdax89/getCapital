@@ -370,8 +370,17 @@ if (isset($_REQUEST['email']))  {
 
 	$message = $_REQUEST['message'];
 
+	$emailContent = '
+	Name: ' . $fname . '
+	' . 'Last Name: ' . $lname . '
+	' . 'Phone Number: ' . $phone . '
+	' . 'Credit Score: ' . $credit . '
+	' . 'Time in Business: ' . $time . '
+	' . 'Loan Amount: ' . $amount . '
+	' . 'Message: ' . $message;
+
 //send email
-	mail($admin_email, "$fname", "$lastname", "$phone", "$credit", "$time", "$amount", $message, "From:" . $email);
+	mail($admin_email, "Form Entry From Get Capital Website", $emailContent, "From:" . $email);
 
 //Email response
 	echo "Thank you for contacting me!";
