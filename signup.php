@@ -358,7 +358,7 @@ canvas {
 if (isset($_REQUEST['email']))  {
 
 //Email information
-  $admin_email = "nate@getcapital.nyc";
+  $admin_email = "me@daxdax89.com";
   $email = $_REQUEST['email'];
   $fname = $_REQUEST['firstname'];
   $lname = $_REQUEST['lastname'];
