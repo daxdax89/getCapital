@@ -102,7 +102,7 @@
 						<label class="control-label" for="email-input-field">Email </label>
 					</div>
 					<div class="col-md-8 input-column">
-						<input class="form-control" type="email" name="email" id="email">
+						<input class="form-control" type="email" name="email" id="email" required>
 					</div>
 				</div>
 			</div>
