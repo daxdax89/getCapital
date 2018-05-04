@@ -355,6 +355,7 @@ if (isset($_REQUEST['email']))  {
 	$emailContent = '
 	Name: ' . $fname . '
 	' . 'Last Name: ' . $lname . '
+	' . 'Email Addres: ' .$email . '
 	' . 'Phone Number: ' . $phone . '
 	' . 'Credit Score: ' . $credit . '
 	' . 'Time in Business: ' . $time . '
